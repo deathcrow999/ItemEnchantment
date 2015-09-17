@@ -1,5 +1,6 @@
 # ItemEnchantment
 Plugin for pocketmine to enchant items on command
+Please keep in mind i code all of this on my iphone 4S in ifile before i post it on github :)
 
 #Feel free to contribute
 
