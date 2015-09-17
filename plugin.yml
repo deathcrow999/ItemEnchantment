@@ -1,10 +1,10 @@
-name: PlayerStats
+name: ItemEnchantment
 version: 1.0.0
 api: 1.10.0
-main: LiveWireTech\ItemEnchantment\Main
+main: LiveWireTech\ItemEnchantment\ItemEnchantment
 
 commands:
- Enchant:
+ EnchantItem:
   description: "Enchant an item that is defined in the config"
-  usage: "/Enchant"
+  usage: "/EnchantItem"
   permission: ItemEnchantment.command.Enchant
