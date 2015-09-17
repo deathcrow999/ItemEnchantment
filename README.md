@@ -10,8 +10,12 @@ Please keep in mind i code all of this on my iphone 4S in ifile before i post it
 -add ability to choose item id and enchantment through command
 -add better coding
 -fix any bugs(if any)
--add enchantment command
+-add messages
+-add success message
+-add error message
 
 ##done
 -add basic outline of plugin
 -add basic command
+-added resource config
+-add enchantment command
