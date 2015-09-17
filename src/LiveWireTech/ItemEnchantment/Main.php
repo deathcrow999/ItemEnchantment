@@ -34,7 +34,7 @@ public function onCommand(CommandSender $sender,Command $command,$commandLabel, 
 $conItem = $this->getConfig()->get("itemid");
 $enchantment = $this->getConfig()->get("enchantment");
 
-if($command->getName() === "EnchantItem"){
+if(strtolower ($command->getName()) === "EnchantItem"){
   
    if($id === $conItem){
 
