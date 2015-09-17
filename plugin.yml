@@ -1,0 +1,10 @@
+name: PlayerStats
+version: 1.0.0
+api: 1.10.0
+main: LiveWireTech\ItemEnchantment\Main
+
+commands:
+ Enchant:
+  description: "Enchant an item that is defined in the config"
+  usage: "/Enchant"
+  permission: ItemEnchantment.command.Enchant
