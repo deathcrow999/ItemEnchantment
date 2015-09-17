@@ -37,7 +37,8 @@ $enchantment = $this->getConfig()->get("enchantment");
 if(strtolower ($command->getName()) === "EnchantItem"){
   
    if($id === $conItem){
-
+   $item->addEnchantment($enchantment);
+   
 
    }
 return true;
