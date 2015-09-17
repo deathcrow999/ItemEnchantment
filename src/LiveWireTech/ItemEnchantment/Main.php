@@ -24,12 +24,24 @@ public function onDisable(){
 $this->getLogger()->info("ItemEnchantment was disabled");
 }
 
+public function ItemHeld(PlayerItemHeldEvent $event) {
+$item = $event->getItem();
+$id = $item->getId();
+$damage = $item->getDamage();
+}
+
 public function onCommand(CommandSender $sender,Command $command,$commandLabel, array $args){
-$item = $this->getConfig()->get("itemid");
+$conItem = $this->getConfig()->get("itemid");
 $enchantment = $this->getConfig()->get("enchantment");
 
 if($command->getName() === "Enchant"){
+  
+   if($id === $conItem){
 
+return true;
+   }
+return false;
+}
 
 return true;
  }
