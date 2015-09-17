@@ -17,7 +17,7 @@ public function onEnable(){
 $this->saveDefaultConfig();
 $this->getConfig()->set("itemid", "261");
 $this->getConfig()->set("enchantment","2");
-$this->getLogger()->info("ItemEnchantment has been loaded")
+$this->getLogger()->info("ItemEnchantment has been loaded");
 }
 
 public function onDisable(){
@@ -34,24 +34,24 @@ public function onCommand(CommandSender $sender,Command $command,$commandLabel, 
 $conItem = $this->getConfig()->get("itemid");
 $enchantment = $this->getConfig()->get("enchantment");
 
-if($command->getName() === "Enchant"){
+if($command->getName() === "EnchantItem"){
   
    if($id === $conItem){
 
-return true;
+
    }
-return false;
+
 }
 
-return true;
+
  }
-return false;
+
+
+
+
+
+
 }
 
-
-
-
-
-}
 
 ?>
