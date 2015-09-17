@@ -40,10 +40,10 @@ if(strtolower ($command->getName()) === "EnchantItem"){
 
 
    }
-
+return true;
 }
 
-
+return false
  }
 
 
