@@ -1,0 +1,7 @@
+---
+## This sets the item id (default id 261=Bow)
+itemid: "261" 
+
+## This sets the enchantment id (default id 2=Feather Falling)
+enchantment: "2"
+...
